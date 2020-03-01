@@ -1,6 +1,6 @@
 ssh ubuntu@172.31.91.198 <<EOF
  cd ~/nodeapp
- npm install
+ npm install — production
  pm2 restart all
  exit
 EOF
